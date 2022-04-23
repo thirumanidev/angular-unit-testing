@@ -7,12 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-unit-testing';
-
   sumOfTwoNumbers(a: number, b: number): number {
     return a + b;
   }
 
   ngOnInit() {
-    console.log(this.sumOfTwoNumbers(50, 20));    
+    console.log(this.sumOfTwoNumbers(-10, 20));    
   }
 }
