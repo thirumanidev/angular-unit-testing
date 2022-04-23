@@ -6,7 +6,7 @@ name: Test & _Build
 on:
   push:
     branches-ignore: 
-      - "main"
+      - "master"
 
 jobs:
   build:
