@@ -13,6 +13,6 @@ export class AppComponent {
   }
 
   ngOnInit() {
-    console.log(this.sumOfTwoNumbers(-10, 20));    
+    console.log(this.sumOfTwoNumbers(50, 20));    
   }
 }
