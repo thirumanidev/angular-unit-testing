@@ -10,7 +10,7 @@ export class AppComponent {
 
   sumOfTwoNumbers(a: number, b: number): number {
     // Test
-    return a + b + 50;
+    return a + b;
   }
 
   ngOnInit() {
