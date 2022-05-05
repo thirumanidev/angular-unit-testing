@@ -9,8 +9,7 @@ export class AppComponent {
   title = 'angular-unit-testing';
 
   sumOfTwoNumbers(a: number, b: number): number {
-    // Test
-    return a + b;
+    return a + b + 30;
   }
 
   ngOnInit() {
