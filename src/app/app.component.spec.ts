@@ -18,4 +18,8 @@ describe('AppComponent', () => {
     fixture.detectChanges();
   });
 
+  it('should return 100', () => {
+    expect(component.sumOfTwoNumbers(20, 80)).toEqual(100);
+  });
+
 });
