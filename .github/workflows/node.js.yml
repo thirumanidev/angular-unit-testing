@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-
+    name: first-unit-testing
     runs-on: ubuntu-latest
 
     strategy:
